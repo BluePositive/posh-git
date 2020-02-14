@@ -4,16 +4,16 @@
 $global:GitPromptSettings = [pscustomobject]@{
     DefaultForegroundColor                      = $null
 
-    BeforeText                                  = ' ['
-    BeforeForegroundColor                       = [ConsoleColor]::Yellow
+    BeforeText                                  = ' ('
+    BeforeForegroundColor                       = [ConsoleColor]::Cyan
     BeforeBackgroundColor                       = $null
 
     DelimText                                   = ' |'
     DelimForegroundColor                        = [ConsoleColor]::Yellow
     DelimBackgroundColor                        = $null
 
-    AfterText                                   = ']'
-    AfterForegroundColor                        = [ConsoleColor]::Yellow
+    AfterText                                   = ')'
+    AfterForegroundColor                        = [ConsoleColor]::Cyan
     AfterBackgroundColor                        = $null
 
     FileAddedText                               = '+'
